@@ -1,0 +1,40 @@
+/*External CSS
+                        COMMON PROPERTIES
+    color practice
+h1 {
+    background-color: red;
+    last comma is opasity, how light or dark you want it to be
+    color: rgba(32, 55, 185, 0.7);
+} 
+
+
+div {
+    not dinamic, hard coding
+    width: 200px;
+    height: 200px;
+    
+
+    responsive to changing size of website 
+    width: 100%;
+    max-width: 200px;
+    border: 10px solid black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+*/
+
+/*                      Specificity */
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+#title {
+    font-weight: bold;
+    color: purple;
+}
