@@ -30,11 +30,21 @@ div {
     color: red;
 }
 
-.blue {
+/*
+p.blue {
     color: blue;
+}
+*/
+.blue {
+    color: black !important;
 }
 
 #title {
     font-weight: bold;
     color: purple;
+}
+
+section {
+    height: 80vh;
+    border: 1px solid black;
 }
