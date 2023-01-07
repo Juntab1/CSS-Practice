@@ -9,7 +9,7 @@ h1 {
 
 
 div {
-    not dinamic, hard coding
+    not dynamic, hard coding
     width: 200px;
     height: 200px;
     
@@ -25,16 +25,16 @@ div {
 }
 */
 
-/*                      Specificity */
+/*                      SPECIFICITY
 .red {
     color: red;
 }
 
-/*
+
 p.blue {
     color: blue;
 }
-*/
+
 .blue {
     color: black !important;
 }
@@ -48,3 +48,47 @@ section {
     height: 80vh;
     border: 1px solid black;
 }
+*/
+/*                     BOX MODEL 
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+        works clockwise of which side of the box it goes on 
+    but if all the same you only write it once
+    padding: 15px;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+*/
+
+/*                      COMPLEX PROPERTIES
+div{
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: purple;
+    // is over the other box div
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    
+    //
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    //
+    
+}
+
+.child {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+*/
