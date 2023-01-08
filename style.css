@@ -122,7 +122,8 @@ div {
 div::after {
     content: " Frontend Simplified";
 }
-*/
+
+                        EXTRAS Pt.2
 div{
     transition: background-color 300ms;
 }
@@ -147,5 +148,16 @@ button:hover {
         transform: translateY(10px);
     }
 }
+*/
+
+/*                     BEM
+.nav__link {
+    color: black;
+}
+.nav__link--active {
+    color: purple;
+    font-weight: bold;
+}
+*/
 
 
